@@ -5,7 +5,8 @@
           <meta content="text/html; charset=utf-8" />
     </head>
 <body>
-<h2> Hi all! we are checking code quality using Sonarqube by integrating with Jenkins!!!!</h2>
+<h2> 
+    Hi all!!! We are kickstarting jenkins job using webhooks!!!!</h2>
   
 </body>
 </html>
