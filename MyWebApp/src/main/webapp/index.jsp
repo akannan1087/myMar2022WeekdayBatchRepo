@@ -5,7 +5,8 @@
           <meta content="text/html; charset=utf-8" />
     </head>
 <body>
-<h2> Hi all! we are integrating with Nexus from Jenkins for uploading the WAR file!!!!</h2>
+<h2> 
+	Hi all! we are implementing full CI using Jenkins, GitHub, Maven, Tomcat, Sonar, Nexus and Slack!!!!!!</h2>
   
 </body>
 </html>
