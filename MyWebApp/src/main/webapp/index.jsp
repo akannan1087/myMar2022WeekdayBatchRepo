@@ -6,7 +6,7 @@
     </head>
 <body>
 <h2> 
-	Hi, full CI using Jenkins, GitHub, Maven, Tomcat!!!!!!</h2>
+	Hi, full CI using Jenkins, GitHub, Maven,Nexus,Tomcat!!!!!!</h2>
   
 </body>
 </html>
