@@ -6,8 +6,8 @@
     </head>
 <body>
 <h2> 
-	Hi all! we are implementing scripted pipeline using Jenkins to integrate with GitHub, Maven, Tomcat, Sonar, Nexus and Slack!!!!!!</h2>
-	<h2> Automation at it's best!!!!</h2>
+	Hi all! we are implementing Declarative pipeline using Jenkins to integrate with GitHub, Maven, Tomcat, Sonar, Nexus and Slack!!!!!!</h2>
+	<h2> Declarative pipeline - Jenkins pipeline as a code!!!!</h2>
   
 </body>
 </html>
