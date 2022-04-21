@@ -6,7 +6,8 @@
     </head>
 <body>
 <h2> 
-	Hi all! we are implementing full CI using Jenkins, GitHub, Maven, Tomcat, Sonar, Nexus and Slack!!!!!!</h2>
+	Hi all! we are implementing scripted pipeline using Jenkins to integrate with GitHub, Maven, Tomcat, Sonar, Nexus and Slack!!!!!!</h2>
+	<h2> Automation at it's best!!!!</h2>
   
 </body>
 </html>
