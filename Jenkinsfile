@@ -82,7 +82,7 @@ pipeline {
     }
     stage ("final Notify") {
         steps {
-            slackSend channel: 'mar-2022-weekday-batch,feb-2022-weekday-batch', message: 'PROD Deployment was successful, please inform end customers..'
+            slackSend channel: 'product-owners-teams', message: 'PROD Deployment was successful, please inform to the end customers..'
        }
      }
     }
