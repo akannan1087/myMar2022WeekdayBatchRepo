@@ -46,44 +46,5 @@ pipeline {
                 slackSend channel: 'mar-2022-weekday-batch,feb-2022-weekday-batch', message: 'DEV Deployment was successful, please start DEV testing'
             }
         }
-
-
-    stage ("DEV Approve") {
-        steps {
-        echo "Taking approval from DEV Manager for QA Deploy"     
-        timeout(time: 7, unit: 'DAYS') {
-        input message: 'Do you approve to deploy into QA environment?', submitter: 'admin'
-        }
-    }
-  }
-    stage ("QA deploy") {
-        steps {
-            deploy adapters: [tomcat9(credentialsId: '3fc8c614-a0c1-4fae-a0ce-af884cccf5d1', path: '', url: 'http://ec2-3-135-116-26.us-east-2.compute.amazonaws.com:8080/')], contextPath: null, war: '**/*.war'   
-        }
-    }
-    stage ("QA Notify") {
-        steps {
-            slackSend channel: 'mar-2022-weekday-batch,feb-2022-weekday-batch', message: 'QA Deployment was successful, please start your functional testing'
-        }
-    }
-    stage ("QA Approve") {
-        steps {
-            echo "Taking approval from QA Manager for PROD Deploy"     
-            timeout(time: 7, unit: 'DAYS') {
-            input message: 'Do you approve to deploy into PROD environment?', submitter: 'admin'
-          }
-        }
-    }
-
-    stage ("PROD deploy") {
-    steps {
-        deploy adapters: [tomcat9(credentialsId: '3fc8c614-a0c1-4fae-a0ce-af884cccf5d1', path: '', url: 'http://ec2-3-135-116-26.us-east-2.compute.amazonaws.com:8080/')], contextPath: null, war: '**/*.war'   
-        }
-    }
-    stage ("final Notify") {
-        steps {
-            slackSend channel: 'product-owners-teams', message: 'PROD Deployment was successful, please inform to the end customers..'
-       }
-     }
     }
 }
