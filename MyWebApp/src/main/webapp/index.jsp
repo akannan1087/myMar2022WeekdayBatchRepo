@@ -6,7 +6,7 @@
     </head>
 <body>
 <h2> 
-	<h2> We are testing quality gate in Sonar!!!!</h2>
+	<h2> We are migrating this WebApp from GitHub into Azure cloud using Azure piplines!!!!!!!!</h2>
   
 </body>
 </html>
