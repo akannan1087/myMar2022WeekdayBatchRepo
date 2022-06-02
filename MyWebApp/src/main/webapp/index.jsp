@@ -6,7 +6,7 @@
     </head>
 <body>
 <h2> 
-	<h2> We are migrating this WebApp from GitHub into Aws cloud using Aws piplines!!!!!!!!</h2>
+	<h2> Hi Deepika I have do automated deployment using jenkins!!!!!!</h2>
   
 </body>
 </html>
