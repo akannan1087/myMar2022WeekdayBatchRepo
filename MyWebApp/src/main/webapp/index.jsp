@@ -6,7 +6,7 @@
     </head>
 <body>
 <h2> 
-	<h2> I have done automated deployment using jenkins!!!!!!</h2>
+	<h2> I have done automated deployment using jenkin!!!!!!</h2>
   
 </body>
 </html>
